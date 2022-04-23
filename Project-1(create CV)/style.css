@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(153, 200, 206);
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    max-width: 1000px;
+    background-color: rgb(125, 203, 177);
+    margin: 0% auto;
+    padding: 20px;
+}
+
+.profile-image{
+    width: 100px;
+    height: 120px;
+    border: 3px solid white;
+    border-radius: 50%;
+    float: left;
+}
+
+.header-bio{
+    float: left;
+    padding: 30px;
+}
+
+h1,h2,h3,h4,h5,h6{
+    color: green;
+}
+
+.header-contact{
+    float: right;
+}
+.header-contact a{
+    text-decoration: none;
+    color: teal;
+    font-weight: bold;
+}
+.header-contact a:hover{
+    text-decoration: underline;
+    color: tomato;
+}
+
+.div-clear{
+    clear: both;
+}
+
+.common-hr{
+    border: 3px solid black;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+}
+
+#personal-information{
+
+}
+
+.content{
+
+}
+
+.left-div{
+    float: left;
+    width: 30%;
+}
+
+.right-div{
+    float: right;
+    width: 70%;
+    color: teal;
+}
+
+.right-div1{
+    width: 45%;
+    float: left;
+}
+.right-div2{
+    float: right;
+    float: right;
+}
+
+.footer-content{
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+}
+.footer-content a{
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+}
